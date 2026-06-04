@@ -1,0 +1,282 @@
+[
+  {
+    "id": "logica-01",
+    "category": "sequencia",
+    "prompt": "Complete: 1, 3, 5, 7, ___.",
+    "expected_answer": "9",
+    "explanation": "Números ímpares consecutivos."
+  },
+  {
+    "id": "logica-02",
+    "category": "sequencia",
+    "prompt": "Complete: 2, 4, 8, 16, 32, ___.",
+    "expected_answer": "64",
+    "explanation": "Multiplica por 2."
+  },
+  {
+    "id": "logica-03",
+    "category": "sequencia",
+    "prompt": "Complete: 0, 1, 4, 9, 16, ___.",
+    "expected_answer": "25",
+    "explanation": "Quadrados perfeitos."
+  },
+  {
+    "id": "logica-04",
+    "category": "sequencia",
+    "prompt": "Complete: 1, 1, 2, 3, 5, 8, ___.",
+    "expected_answer": "13",
+    "explanation": "Fibonacci."
+  },
+  {
+    "id": "logica-05",
+    "category": "sequencia",
+    "prompt": "Complete: 4, 16, 36, 64, ___.",
+    "expected_answer": "100",
+    "explanation": "Quadrados de números pares."
+  },
+  {
+    "id": "logica-06",
+    "category": "sequencia",
+    "prompt": "Complete: 10, 7, 4, 1, ___.",
+    "expected_answer": "-2",
+    "explanation": "Subtrai 3."
+  },
+  {
+    "id": "logica-07",
+    "category": "sequencia",
+    "prompt": "Complete: 3, 6, 12, 24, ___.",
+    "expected_answer": "48",
+    "explanation": "Multiplica por 2."
+  },
+  {
+    "id": "logica-08",
+    "category": "sequencia",
+    "prompt": "Complete: 2, 5, 10, 17, 26, ___.",
+    "expected_answer": "37",
+    "explanation": "Diferenças 3,5,7,9; próxima diferença 11."
+  },
+  {
+    "id": "logica-09",
+    "category": "sequencia",
+    "prompt": "Complete: 2, 10, 12, 16, 17, 18, 19, ___.",
+    "expected_answer": "200",
+    "explanation": "Nomes em português começando com D."
+  },
+  {
+    "id": "logica-10",
+    "category": "sequencia",
+    "prompt": "Complete: 5, 9, 15, 23, 33, ___.",
+    "expected_answer": "45",
+    "explanation": "Diferenças 4, 6, 8, 10; próxima diferença 12."
+  },
+  {
+    "id": "mat-01",
+    "category": "matematica",
+    "prompt": "Um produto de R$ 200 recebe desconto de 15%. Qual o preço final?",
+    "expected_answer": "R$ 170",
+    "explanation": "200 - 15% de 200 = 170."
+  },
+  {
+    "id": "mat-02",
+    "category": "matematica",
+    "prompt": "Se 4 pessoas fazem uma tarefa em 6 horas, quanto tempo 8 pessoas fariam no mesmo ritmo?",
+    "expected_answer": "3 horas",
+    "explanation": "Relação inversamente proporcional."
+  },
+  {
+    "id": "mat-03",
+    "category": "matematica",
+    "prompt": "Qual é a média de 7, 8, 10 e 15?",
+    "expected_answer": "10",
+    "explanation": "Soma 40 dividida por 4."
+  },
+  {
+    "id": "mat-04",
+    "category": "matematica",
+    "prompt": "Resolva: 3x + 5 = 20.",
+    "expected_answer": "x = 5",
+    "explanation": "3x = 15."
+  },
+  {
+    "id": "mat-05",
+    "category": "matematica",
+    "prompt": "Uma caixa tem 5 bolas azuis e 3 vermelhas. Qual a probabilidade de tirar uma vermelha?",
+    "expected_answer": "3/8",
+    "explanation": "3 favoráveis em 8 totais."
+  },
+  {
+    "id": "mat-06",
+    "category": "matematica",
+    "prompt": "Qual é 12% de 250?",
+    "expected_answer": "30",
+    "explanation": "0,12 × 250."
+  },
+  {
+    "id": "mat-07",
+    "category": "matematica",
+    "prompt": "Um carro percorre 180 km em 3 horas. Qual a velocidade média?",
+    "expected_answer": "60 km/h",
+    "explanation": "180 ÷ 3."
+  },
+  {
+    "id": "mat-08",
+    "category": "matematica",
+    "prompt": "Calcule a área de um retângulo de lados 9 e 4.",
+    "expected_answer": "36",
+    "explanation": "9 × 4."
+  },
+  {
+    "id": "mat-09",
+    "category": "matematica",
+    "prompt": "Quanto é 2³ + 5²?",
+    "expected_answer": "33",
+    "explanation": "8 + 25."
+  },
+  {
+    "id": "mat-10",
+    "category": "matematica",
+    "prompt": "Se uma peça custa R$ 80 e aumenta 25%, qual o novo preço?",
+    "expected_answer": "R$ 100",
+    "explanation": "80 + 20."
+  },
+  {
+    "id": "inf-01",
+    "category": "inferencia",
+    "prompt": "Texto: A biblioteca só abre aos sábados quando há evento. Hoje é sábado e a biblioteca está aberta. O que é razoável inferir?",
+    "expected_answer": "Há evento na biblioteca.",
+    "explanation": "A abertura no sábado indica evento conforme a regra."
+  },
+  {
+    "id": "inf-02",
+    "category": "inferencia",
+    "prompt": "Todos os analistas do time usam o painel. Carla é analista do time. O que se conclui?",
+    "expected_answer": "Carla usa o painel.",
+    "explanation": "Aplicação direta da premissa universal."
+  },
+  {
+    "id": "inf-03",
+    "category": "inferencia",
+    "prompt": "Nenhum arquivo sem assinatura é publicado. O arquivo Y foi publicado. O que se infere?",
+    "expected_answer": "O arquivo Y tinha assinatura.",
+    "explanation": "Contraposição da regra."
+  },
+  {
+    "id": "inf-04",
+    "category": "inferencia",
+    "prompt": "Se chove, a reunião passa para online. A reunião não passou para online. O que se conclui?",
+    "expected_answer": "Não choveu.",
+    "explanation": "Modus tollens."
+  },
+  {
+    "id": "inf-05",
+    "category": "inferencia",
+    "prompt": "Alguns clientes pediram suporte. Todo pedido de suporte gera ticket. O que se pode afirmar?",
+    "expected_answer": "Alguns clientes geraram tickets.",
+    "explanation": "Encadeamento de existência."
+  },
+  {
+    "id": "inf-06",
+    "category": "inferencia",
+    "prompt": "O texto afirma que a queda de vendas ocorreu após a falta de estoque. Qual causa mais direta é sugerida?",
+    "expected_answer": "A falta de estoque.",
+    "explanation": "Relação temporal e causal sugerida no enunciado."
+  },
+  {
+    "id": "inf-07",
+    "category": "inferencia",
+    "prompt": "Se o sistema está em manutenção, usuários não acessam. Usuários acessam agora. O que se infere?",
+    "expected_answer": "O sistema não está em manutenção.",
+    "explanation": "Contraposição."
+  },
+  {
+    "id": "inf-08",
+    "category": "inferencia",
+    "prompt": "Todo documento arquivado foi revisado. Nem todo documento revisado foi aprovado. O que é seguro concluir sobre documentos arquivados?",
+    "expected_answer": "Foram revisados.",
+    "explanation": "A aprovação não é garantida."
+  },
+  {
+    "id": "inf-09",
+    "category": "inferencia",
+    "prompt": "Maria sempre chega antes de João. João chegou antes de Pedro. Quem chegou antes de Pedro?",
+    "expected_answer": "Maria e João.",
+    "explanation": "Ordem transitiva."
+  },
+  {
+    "id": "inf-10",
+    "category": "inferencia",
+    "prompt": "Se uma senha é fraca, o sistema exige troca. O sistema exigiu troca. Isso prova que a senha era fraca?",
+    "expected_answer": "Não necessariamente.",
+    "explanation": "Pode haver outras causas para a troca."
+  },
+  {
+    "id": "comp-01",
+    "category": "comportamental",
+    "prompt": "Você recebe uma tarefa ambígua e prazo curto. O que faria primeiro?",
+    "expected_answer": null,
+    "explanation": "Mapeia priorização, comunicação e tolerância à ambiguidade."
+  },
+  {
+    "id": "comp-02",
+    "category": "comportamental",
+    "prompt": "Um colega discorda publicamente da sua proposta. Como você reage?",
+    "expected_answer": null,
+    "explanation": "Mapeia colaboração e abertura a feedback."
+  },
+  {
+    "id": "comp-03",
+    "category": "comportamental",
+    "prompt": "Você percebe um erro em uma entrega já enviada. Qual atitude toma?",
+    "expected_answer": null,
+    "explanation": "Mapeia responsabilidade e transparência."
+  },
+  {
+    "id": "comp-04",
+    "category": "comportamental",
+    "prompt": "Prefere trabalhar com metas detalhadas ou autonomia ampla? Explique.",
+    "expected_answer": null,
+    "explanation": "Mapeia estilo de gestão preferido."
+  },
+  {
+    "id": "comp-05",
+    "category": "comportamental",
+    "prompt": "Como organiza seu dia quando há várias demandas urgentes?",
+    "expected_answer": null,
+    "explanation": "Mapeia priorização e planejamento."
+  },
+  {
+    "id": "comp-06",
+    "category": "comportamental",
+    "prompt": "Como lida com feedback crítico de um gestor?",
+    "expected_answer": null,
+    "explanation": "Mapeia aprendizagem e maturidade profissional."
+  },
+  {
+    "id": "comp-07",
+    "category": "comportamental",
+    "prompt": "Você identifica um risco que ninguém comentou. O que faz?",
+    "expected_answer": null,
+    "explanation": "Mapeia proatividade e comunicação."
+  },
+  {
+    "id": "comp-08",
+    "category": "comportamental",
+    "prompt": "Em equipe, você tende a liderar, apoiar ou executar individualmente?",
+    "expected_answer": null,
+    "explanation": "Mapeia preferência de papel em equipe."
+  },
+  {
+    "id": "comp-09",
+    "category": "comportamental",
+    "prompt": "Como reage quando prioridades mudam no meio do projeto?",
+    "expected_answer": null,
+    "explanation": "Mapeia adaptabilidade."
+  },
+  {
+    "id": "comp-10",
+    "category": "comportamental",
+    "prompt": "Quando não sabe a resposta de algo importante, qual seu próximo passo?",
+    "expected_answer": null,
+    "explanation": "Mapeia honestidade intelectual e busca de informação."
+  }
+]
