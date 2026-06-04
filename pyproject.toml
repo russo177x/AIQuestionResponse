@@ -1,0 +1,32 @@
+[project]
+name = "ai-question-response"
+version = "0.2.0"
+description = "Agente local autorizado para leitura, OCR e treino de raciocínio lógico, matemática, inferência e perfil comportamental."
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi>=0.111.0",
+  "uvicorn[standard]>=0.30.0",
+  "pydantic>=2.7.0",
+  "pillow>=10.3.0",
+  "pytesseract>=0.3.10",
+  "mss>=9.0.1",
+  "python-multipart>=0.0.9",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.2.0",
+  "ruff>=0.5.0",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+ignore = []
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
